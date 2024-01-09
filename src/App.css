@@ -1,0 +1,125 @@
+/* body{
+  background: rebeccapurple;
+ margin-left: 40%;
+margin-top: 60px;
+}
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-board {
+  margin: 20px;
+  
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+
+.square {
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 20px;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  border: 1px solid #999;
+}
+.reset-button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-left: 54px;
+}
+
+.reset-button:hover {
+  background-color: #45a049;
+}
+.game-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+ */
+ .game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* This ensures the game takes up the full height of the viewport */
+}
+
+.game-title {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: red;
+}
+
+.status {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.status.winner {
+  color: #00ff08; /* Green color for the winner message */
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.square {
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 20px;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  border: 1px solid #5c1414;
+}
+
+.reset-button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: rgb(163, 30, 30);
+  border: none;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+
+.reset-button:hover {
+  background-color: #45a049;
+}
+body{
+  background: blueviolet;
+  background-image: url(https://i.redd.it/j0k70dc1yf9b1.gif);
+ 
+}
